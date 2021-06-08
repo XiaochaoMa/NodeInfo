@@ -1,0 +1,7 @@
+build/
+xyz.openbmc_project.NodeInfo.service
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide

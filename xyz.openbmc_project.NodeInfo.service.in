@@ -1,0 +1,12 @@
+[Unit]
+Description=NodeInfo
+After=dbus.service
+
+[Service]
+ExecStart=@bindir@/nodeinfo
+Restart=always
+Type=dbus
+BusName=xyz.openbmc_project.NodeInfo
+
+[Install]
+WantedBy=multi-user.target
